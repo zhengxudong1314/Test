@@ -37,6 +37,7 @@ public class MainActivity extends AppCompatActivity {
     @SuppressLint("NewApi")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        //zhengxudong
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         start = findViewById(R.id.start);
