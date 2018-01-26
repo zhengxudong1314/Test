@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
     //diyiciwo
 
 //abc fenzhi
-
+    //修改代码
     private TextView start;
     private FingerprintManager fingerprintManager;
     private FingerprintManagerCompat fingerprintManagerCompat;
