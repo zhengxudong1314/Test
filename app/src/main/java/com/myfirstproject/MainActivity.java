@@ -29,11 +29,12 @@ import javax.crypto.SecretKey;
 @TargetApi(Build.VERSION_CODES.JELLY_BEAN)
 public class MainActivity extends AppCompatActivity {
 
-
+//abc fenzhi
     private TextView start;
     private FingerprintManager fingerprintManager;
     private FingerprintManagerCompat fingerprintManagerCompat;
     private final String TAG = "MainActivity";
+    //abc...
     @SuppressLint("NewApi")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
