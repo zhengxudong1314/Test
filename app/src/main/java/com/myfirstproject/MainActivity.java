@@ -30,16 +30,22 @@ import javax.crypto.SecretKey;
 public class MainActivity extends AppCompatActivity {
 
 
+    //diyiciwo
+
+//abc fenzhi
+
     private TextView start;
     private FingerprintManager fingerprintManager;
     private FingerprintManagerCompat fingerprintManagerCompat;
     private final String TAG = "MainActivity";
+    //abc...
     @SuppressLint("NewApi")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         //zhengxudong
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        //merge content
         start = findViewById(R.id.start);
         fingerprintManager = (FingerprintManager) getSystemService(Context.FINGERPRINT_SERVICE);
         fingerprintManagerCompat = FingerprintManagerCompat.from(this);
