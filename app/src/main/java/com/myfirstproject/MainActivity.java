@@ -29,7 +29,7 @@ import javax.crypto.SecretKey;
 @TargetApi(Build.VERSION_CODES.JELLY_BEAN)
 public class MainActivity extends AppCompatActivity {
 
-
+    //diyiciwo
     private TextView start;
     private FingerprintManager fingerprintManager;
     private FingerprintManagerCompat fingerprintManagerCompat;
